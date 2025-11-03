@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Credit Planner for Students</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#6366F1', // Indigo-500
+              secondary: '#4F46E5', // Indigo-600
+              accent: '#EC4899', // Pink-500
+              success: '#10B981', // Green-500
+              warning: '#F59E0B', // Amber-500
+              danger: '#EF4444', // Red-500
+              info: '#3B82F6', // Blue-500
+              background: '#F9FAFB', // Gray-50
+              card: '#FFFFFF', // White
+              text: '#1F2937', // Gray-800
+              textLight: '#4B5563', // Gray-600
+            }
+          }
+        }
+      }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.28.0"
+  }
+}
+</script>
+</head>
+<body class="bg-background text-text antialiased">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "name": "Smart Credit Planner for Students (SA)",
+  "description": "Helps students manage credit cards safely by providing smart guidance based on balance and spending habits, featuring a bill prediction timeline, credit score simulator, and a safe-zone spending heat-gauge.",
+  "requestFramePermissions": []
+}
